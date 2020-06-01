@@ -1,0 +1,51 @@
+{
+  "_from": "git+https://github.com/JoyoDuan/cordova-plugin-amapnavigation.git",
+  "_id": "cordova-plugin-amapnavigation@0.0.1",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-amapnavigation",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/JoyoDuan/cordova-plugin-amapnavigation",
+    "rawSpec": "https://github.com/JoyoDuan/cordova-plugin-amapnavigation",
+    "saveSpec": "git+https://github.com/JoyoDuan/cordova-plugin-amapnavigation.git",
+    "fetchSpec": "https://github.com/JoyoDuan/cordova-plugin-amapnavigation.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/JoyoDuan/cordova-plugin-amapnavigation.git#173450da0cb246f73ef501d0d6bec9200fa3f9d5",
+  "_spec": "https://github.com/JoyoDuan/cordova-plugin-amapnavigation",
+  "_where": "E:\\Driveprince\\Development\\hybrid-app\\drive-coach",
+  "author": {
+    "name": "JoyoDuan"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-amapnavigation",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova AMapLocationPlugin Plugin Powerd by JoyoDuan",
+  "keywords": [
+    "cordova",
+    "AMapNavigationPlugin",
+    "JoyoDuan",
+    "Joyo",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-amapnavigation",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "version": "0.0.1"
+}

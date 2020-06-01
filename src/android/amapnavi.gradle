@@ -1,0 +1,9 @@
+dependencies {
+   compile 'com.android.support:multidex:'
+}
+
+android {
+    defaultConfig {
+        multiDexEnabled true
+    }
+}
