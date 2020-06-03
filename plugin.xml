@@ -39,7 +39,7 @@
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
 
-        <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
+        <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml" mode="merge">
             <activity android:name="com.amap.api.navi.AmapRouteActivity"
                 android:theme="@android:style/Theme.NoTitleBar"
                 android:configChanges="orientation|keyboardHidden|screenSize" />
