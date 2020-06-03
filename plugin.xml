@@ -25,7 +25,7 @@
             </feature>
         </config-file>
 
-        <config-file parent="/*" target="AndroidManifest.xml">
+        <config-file parent="/*" target="app/src/main/AndroidManifest.xml">
             <!-- <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="15" /> -->
             <uses-permission android:name="android.permission.INTERNET" />
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -39,15 +39,13 @@
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
 
-        <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <!--您申请的高德地图android key-->
-            <meta-data android:name="com.amap.api.v2.apikey" android:value="$ANDROID_KEY"/>
-        </config-file>
-
-        <config-file parent="/manifest/application" target="AndroidManifest.xml">
+        <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
             <activity android:name="com.amap.api.navi.AmapRouteActivity"
                 android:theme="@android:style/Theme.NoTitleBar"
                 android:configChanges="orientation|keyboardHidden|screenSize" />
+
+            <!--您申请的高德地图android key-->
+            <meta-data android:name="com.amap.api.v2.apikey" android:value="$ANDROID_KEY"/>
         </config-file>
 
         <source-file src="src/android/AMapNavigationPlugin.java" target-dir="src/com/joyo/cordova/navigation"/>
