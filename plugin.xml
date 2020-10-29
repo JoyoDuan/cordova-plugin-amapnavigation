@@ -51,50 +51,28 @@
         <source-file src="src/android/AMapNavigationPlugin.java" target-dir="src/com/joyo/cordova/navigation"/>
 
 
-        <source-file src="libs/android/armeabi/libAMapSDK_MAP_v7_1_0.so" target-dir="libs/armeabi"/>
-        <source-file src="libs/android/armeabi/libAMapSDK_NAVI_v7_1_0.so" target-dir="libs/armeabi"/>
-        <source-file src="libs/android/armeabi/libmp3decoder.so" target-dir="libs/armeabi"/>
-        <source-file src="libs/android/armeabi/libmsc.so" target-dir="libs/armeabi"/>
-        <source-file src="libs/android/armeabi/librtbt828.so" target-dir="libs/armeabi"/>
-        <source-file src="libs/android/armeabi/libwtbt828.so" target-dir="libs/armeabi"/>
+        <source-file src="libs/android/armeabi/libAMapSDK_NAVI_v7_6_0.so" target-dir="libs/armeabi"/>
+        <source-file src="libs/android/armeabi/libneonuijni.so" target-dir="libs/armeabi"/>
 
 
-        <source-file src="libs/android/arm64-v8a/libAMapSDK_MAP_v7_1_0.so" target-dir="libs/arm64-v8a"/>
-        <source-file src="libs/android/arm64-v8a/libAMapSDK_NAVI_v7_1_0.so" target-dir="libs/arm64-v8a"/>
-        <source-file src="libs/android/arm64-v8a/libmp3decoder.so" target-dir="libs/arm64-v8a"/>
-        <source-file src="libs/android/arm64-v8a/libmsc.so" target-dir="libs/arm64-v8a"/>
-        <source-file src="libs/android/arm64-v8a/librtbt828.so" target-dir="libs/arm64-v8a"/>
-        <source-file src="libs/android/arm64-v8a/libwtbt828.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="libs/android/arm64-v8a/libAMapSDK_NAVI_v7_6_0.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="libs/android/arm64-v8a/libneonuijni.so" target-dir="libs/arm64-v8a"/>
 
 
-        <source-file src="libs/android/armeabi-v7a/libAMapSDK_MAP_v7_1_0.so" target-dir="libs/armeabi-v7a"/>
-        <source-file src="libs/android/armeabi-v7a/libAMapSDK_NAVI_v7_1_0.so" target-dir="libs/armeabi-v7a"/>
-        <source-file src="libs/android/armeabi-v7a/libmp3decoder.so" target-dir="libs/armeabi-v7a"/>
-        <source-file src="libs/android/armeabi-v7a/libmsc.so" target-dir="libs/armeabi-v7a"/>
-        <source-file src="libs/android/armeabi-v7a/librtbt828.so" target-dir="libs/armeabi-v7a"/>
-        <source-file src="libs/android/armeabi-v7a/libwtbt828.so" target-dir="libs/armeabi-v7a"/>
+        <source-file src="libs/android/armeabi-v7a/libAMapSDK_NAVI_v7_6_0.so" target-dir="libs/armeabi-v7a"/>
+        <source-file src="libs/android/armeabi-v7a/libneonuijni.so" target-dir="libs/armeabi-v7a"/>
 
 
-        <source-file src="libs/android/x86/libAMapSDK_MAP_v7_1_0.so" target-dir="libs/x86"/>
-        <source-file src="libs/android/x86/libAMapSDK_NAVI_v7_1_0.so" target-dir="libs/x86"/>
-        <source-file src="libs/android/x86/libmp3decoder.so" target-dir="libs/x86"/>
-        <source-file src="libs/android/x86/libmsc.so" target-dir="libs/x86"/>
-        <source-file src="libs/android/x86/librtbt828.so" target-dir="libs/x86"/>
-        <source-file src="libs/android/x86/libwtbt828.so" target-dir="libs/x86"/>
+        <source-file src="libs/android/x86/libAMapSDK_NAVI_v7_6_0.so" target-dir="libs/x86"/>
+        <source-file src="libs/android/x86/libneonuijni.so" target-dir="libs/x86"/>
 
 
-        <source-file src="libs/android/x86_64/libAMapSDK_MAP_v7_1_0.so" target-dir="libs/x86_64"/>
-        <source-file src="libs/android/x86_64/libAMapSDK_NAVI_v7_1_0.so" target-dir="libs/x86_64"/>
-        <source-file src="libs/android/x86_64/libmp3decoder.so" target-dir="libs/x86_64"/>
-        <source-file src="libs/android/x86_64/libmsc.so" target-dir="libs/x86_64"/>
-        <source-file src="libs/android/x86_64/librtbt828.so" target-dir="libs/x86_64"/>
-        <source-file src="libs/android/x86_64/libwtbt828.so" target-dir="libs/x86_64"/>
+        <source-file src="libs/android/x86_64/libAMapSDK_NAVI_v7_6_0.so" target-dir="libs/x86_64"/>
+        <source-file src="libs/android/x86_64/libneonuijni.so" target-dir="libs/x86_64"/>
 
 
-<!--        <source-file src="libs/android/AMap_Location_V4.7.2_20190927.jar" target-dir="libs"/>-->
-        <source-file src="libs/android/AMap_Search_V7.1.0_20191030.jar" target-dir="libs"/>
-        <source-file src="libs/android/AMap3DMap_7.1.0_AMapNavi_7.1.0_20191030.jar" target-dir="libs"/>
-        <source-file src="libs/android/Msc.jar" target-dir="libs"/>
+        <source-file src="libs/android/AMap3DMap_7.6.0_AMapNavi_7.6.0_20200819.jar" target-dir="libs"/>
+<!--        <source-file src="libs/android/Msc.jar" target-dir="libs"/>-->
 
         <framework src="src/android/amapnavi.gradle" custom="true" type="gradleReference"/>
     </platform>
