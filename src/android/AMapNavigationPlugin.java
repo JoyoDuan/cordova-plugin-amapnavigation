@@ -121,6 +121,7 @@ public class AMapNavigationPlugin extends CordovaPlugin implements INaviInfoCall
             callbackContext.sendPluginResult(pluginResult);
         } catch (JSONException ex) {
             Log.e("onResult", ex.getMessage());
+            callbackContext.error(ex.getMessage());
         }
     }
 
